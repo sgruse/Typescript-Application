@@ -1,0 +1,19 @@
+{
+  "name": "mesh-attacks",
+  "version": "1.0.0",
+  "description": "Leanring typescript2.0 by making a small application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgruse/Typescript-Application.git"
+  },
+  "author": "Sam Gruse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgruse/Typescript-Application/issues"
+  },
+  "homepage": "https://github.com/sgruse/Typescript-Application#readme"
+}
