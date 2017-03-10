@@ -7,7 +7,7 @@ import errorHandler = require("errorhandler");
 import methodOverride = require("method-override");
 
 // routes
-import { IndexRoute } from './routes/index';
+import { IndexRoute } from './index';
 
 export class Server {
     // This is a single publicly available variable named 'app' and is of type express.Application

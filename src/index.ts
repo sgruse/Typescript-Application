@@ -1,4 +1,4 @@
-import { NextFunctionm, Request, Response, Router } from 'express';
+import { NextFunction, Request, Response, Router } from 'express';
 import { BaseRoute } from './route';
 
 export class IndexRoute extends BaseRoute {
@@ -8,7 +8,7 @@ export class IndexRoute extends BaseRoute {
         console.log('[IndexRoute::create] Creating the index route');
 
         // add home page route
-        router.get('/', (req: Request, res: Resposne, next: NextFunction) => {
+        router.get('/', (req: Request, res: Response, next: NextFunction) => {
             new IndexRoute().index(req, res, next);
         });
 
@@ -24,8 +24,6 @@ export class IndexRoute extends BaseRoute {
     public index(req: Request, res: Response, next: NextFunction) {
         // custom title
         this.title = 'MESH ATTACKS';
-
-        console.log('THIS IS SCRIPTS FROM BASE ROUTE : ', this.scripts);
 
         // set options
         let options: Object = {
